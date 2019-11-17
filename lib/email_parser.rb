@@ -12,12 +12,9 @@ class EmailAddressParser
   end
 
   def parse
-<<<<<<< HEAD
     @csv_emails = @csv_emails.split(/\s|,\s/)
     @csv_emails.uniq
-=======
     @csv_emails.split(/[\s|\s,]/)
->>>>>>> 2ec078864f0faf3fffe9254d190647300e8b7d78
   end
   
 end
